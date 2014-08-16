@@ -13,11 +13,11 @@ RelayPi created by rfalias
 
 RelayPi
 =======
-This is a set of php/python scripts to allow control of a Sainsmart (or other relay) via web or an IR sensor.
-I used the following hardware:
+This is a set of php/python scripts to allow control of a Sainsmart (or other relay) via web or an IR sensor.  
+I used the following hardware:  
 RasperryPi Model B, 256mb ram.
-SainSmart 2 channel relay module. http://www.sainsmart.com/arduino-pro-mini.html
-Pololu Sharp IR Distance Sensor (~2 inch distance) with Carrier. http://www.pololu.com/product/1132
+SainSmart 2 channel relay module. http://www.sainsmart.com/arduino-pro-mini.html  
+Pololu Sharp IR Distance Sensor (~2 inch distance) with Carrier. http://www.pololu.com/product/1132  
 Breadboard, wiring as needed.
 
 
