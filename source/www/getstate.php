@@ -1,6 +1,5 @@
+
 <?php
-//$state = readfile('/var/www/sensor/state');
-//echo $state[0];
 $url = "http://localhost:8080?state=get";
 $curl = curl_init();
 curl_setopt ($curl, CURLOPT_URL, $url);
