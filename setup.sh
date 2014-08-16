@@ -49,7 +49,7 @@ fi
 echo "Copying php scripts to $webroot"
 cp ./source/www/toggle.php $webroot
 cp ./source/www/getstate.php $webroot
-
+cp ./source/www/tail.php $webroot
 echo "Configuring daemeon start options..."
 update-rc.d sensord start 20 3 4 5 > /dev/null 2>&1
 echo "Starting sensord daemon...."
