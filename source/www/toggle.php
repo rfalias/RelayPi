@@ -3,7 +3,7 @@ $request = isset($_GET['req'])?$_GET['req']:null;
 
 function SetState($value)
 {
-	$url = "http://192.168.2.113:8080?state=" . $value;
+	$url = "http://localhost:8080?state=" . $value;
 	$curl = curl_init();
 	curl_setopt ($curl, CURLOPT_URL, $url);
 	curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
