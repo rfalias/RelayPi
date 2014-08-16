@@ -24,14 +24,21 @@ Breadboard, wiring as needed.
 Wiring Setup
 =======
 >Raspberry Pi      IR sensor
+
 >3v3     <------->  VIN
+
 >GND     <------->  GND
+
 >GPIO 23 <------->  OUT
 >
 >Raspberry Pi      Relay Module
+
 >				   Leave JD-VCC and VCC jumper
+
 >5v5     <------->  VCC
+
 >GND     <------->  GND
+
 >GPIO24  <------->  IN1
 
 Software

@@ -1,15 +1,15 @@
-
- RelayPi created by rfalias
- Using GNU GPL
- This program is free software: you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published by
- the Free Software Foundation, either version 3 of the License, or
- (at your option) any later version.
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  GNU General Public License for more details.
-  See <http://www.gnu.org/licenses/>.
+RelayPi created by rfalias  
+ Using GNU GPL  
+ This program is free software: you can redistribute it and/or modify  
+ it under the terms of the GNU General Public License as published by  
+ the Free Software Foundation, either version 3 of the License, or  
+ (at your option) any later version.  
+ This program is distributed in the hope that it will be useful,  
+ but WITHOUT ANY WARRANTY; without even the implied warranty of  
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the  
+  GNU General Public License for more details.  
+  See <http://www.gnu.org/licenses/>.  
+  
 
 RelayPi
 =======
@@ -23,29 +23,21 @@ Breadboard, wiring as needed.
 
 Wiring Setup
 =======
->Raspberry Pi      IR sensor
+Raspberry Pi <--------> IR Sensor
 
->3v3     <------->  VIN
+  - 3v3     <------->  VIN
+  - GND     <------->  GND
+  - GPIO 23 <------->  OUT
 
->GND     <------->  GND
+Raspberry Pi <--------> Relay Module
 
->GPIO 23 <------->  OUT
->
->Raspberry Pi      Relay Module
-
->				   Leave JD-VCC and VCC jumper
-
->5v5     <------->  VCC
-
->GND     <------->  GND
-
->GPIO24  <------->  IN1
+  - Leave JD-VCC and VCC jumper
+  - 5v5     <------->  VCC
+  - GND     <------->  GND
+  - GPIO24  <------->  IN1
 
 Software
 ========
 Once hardware has been assembled and tested, run setup.sh to install the daemon and web pages.
 It requires php5, curl, python 2.7. Setup will install these automatically.
-
-
-
 
