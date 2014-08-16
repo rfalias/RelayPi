@@ -1,7 +1,7 @@
 <?php
 //$state = readfile('/var/www/sensor/state');
 //echo $state[0];
-$url = "http://192.168.2.113:8080?state=get";
+$url = "http://localhost:8080?state=get";
 $curl = curl_init();
 curl_setopt ($curl, CURLOPT_URL, $url);
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
