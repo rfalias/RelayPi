@@ -164,6 +164,9 @@ height:120px;
 </style>
 </head>
 <body >
+<div class="center">
+<h1 style="color:red;">RelayPi</h1>
+</div>
 <div class="box">
 <div class="center">
 	<div style="float:left;margin-left:18%;"><h1>Relay State:<span id="txtHint"></span></h1></div>
